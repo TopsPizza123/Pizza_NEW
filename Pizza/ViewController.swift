@@ -213,6 +213,13 @@ class ViewController: UIViewController,CAAnimationDelegate,UITableViewDelegate,U
             ImageSource(image: UIImage(named: "img3.jpeg")!),ImageSource(image: UIImage(named: "img4.jpeg")!),ImageSource(image: UIImage(named: "img5.jpg")!)
             
                 ])
+            
+            //image slide time interval
+            cell.imgsld.slideshowInterval = 1.87
+            
+            //contentScaleMode - configures the scaling
+            cell.imgsld.contentScaleMode = .scaleAspectFill
+            
             let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.didTap))
            cell.imgsld.addGestureRecognizer(gestureRecognizer)
             
