@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import ImageSlideshow
 class ViewController: UIViewController,CAAnimationDelegate,UITableViewDelegate,UITableViewDataSource,UIGestureRecognizerDelegate{
     
     var flg  = 0;
@@ -62,7 +62,9 @@ class ViewController: UIViewController,CAAnimationDelegate,UITableViewDelegate,U
     
     func menubutton(sender:UIButton) {
        if flg == 0{
+        
          showmenu()
+        
         }
         else
         {
@@ -195,7 +197,7 @@ class ViewController: UIViewController,CAAnimationDelegate,UITableViewDelegate,U
         }
         else
         {
-           return mainarr.count
+            return 1;
         }
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
@@ -204,9 +206,16 @@ class ViewController: UIViewController,CAAnimationDelegate,UITableViewDelegate,U
         {
             
             
-            let cell = tableView.dequeueReusableCell(withIdentifier: "maincell", for: indexPath)
+            let cell = tableView.dequeueReusableCell(withIdentifier: "cell12", for: indexPath) as! imgsldcustcell;
             
-            cell.textLabel?.text = mainarr[indexPath.row]
+          cell.imgsld .setImageInputs([
+            ImageSource(image: UIImage(named: "img1.jpeg")!),ImageSource(image: UIImage(named: "img2.jpeg")!),
+            ImageSource(image: UIImage(named: "img3.jpeg")!),ImageSource(image: UIImage(named: "img4.jpeg")!),ImageSource(image: UIImage(named: "img5.jpg")!)
+            
+                ])
+            let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.didTap))
+           cell.imgsld.addGestureRecognizer(gestureRecognizer)
+            
             
             return cell
             
@@ -225,6 +234,32 @@ class ViewController: UIViewController,CAAnimationDelegate,UITableViewDelegate,U
         }
     }
     
+
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        
+        if tableView.tag == 1  {
+            
+            
+            return 200;
+            
+            
+        }
+        else
+        {
+            return 45;
+            
+        }
+        
+    }
+    
+    func didTap() {
+        
+         let indexpath = IndexPath(row: 0, section: 0)
+        
+        let cell = maintable.cellForRow(at: indexpath) as! imgsldcustcell;
+        
+       cell.imgsld .presentFullScreenController(from: self)
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
        

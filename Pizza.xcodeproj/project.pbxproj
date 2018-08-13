@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C74A1AF3FF6921616076069 /* Pods_Pizza.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D14313D071F2C44EA6263B /* Pods_Pizza.framework */; };
 		E7229E11211C241100C27215 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7229E10211C241100C27215 /* CategoryViewController.swift */; };
 		E7229E13211C245100C27215 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7229E12211C245100C27215 /* DescriptionViewController.swift */; };
 		E7229E15211C24B800C27215 /* WishlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7229E14211C24B800C27215 /* WishlistViewController.swift */; };
@@ -20,9 +21,18 @@
 		E749F6462119411800441F12 /* Pizza.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E749F6442119411800441F12 /* Pizza.xcdatamodeld */; };
 		E749F6482119411800441F12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E749F6472119411800441F12 /* Assets.xcassets */; };
 		E749F64B2119411800441F12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E749F6492119411800441F12 /* LaunchScreen.storyboard */; };
+		E765826C212129F70013CDE0 /* imgsldcustcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E765826B212129F70013CDE0 /* imgsldcustcell.swift */; };
+		E765827321212DE90013CDE0 /* img1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E765826E21212DE90013CDE0 /* img1.jpeg */; };
+		E765827421212DE90013CDE0 /* img2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E765826F21212DE90013CDE0 /* img2.jpeg */; };
+		E765827521212DE90013CDE0 /* img3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E765827021212DE90013CDE0 /* img3.jpeg */; };
+		E765827621212DE90013CDE0 /* img4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E765827121212DE90013CDE0 /* img4.jpeg */; };
+		E765827721212DE90013CDE0 /* img5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E765827221212DE90013CDE0 /* img5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73FDDBB5AA97D00B4280D64F /* Pods-Pizza.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pizza.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pizza/Pods-Pizza.debug.xcconfig"; sourceTree = "<group>"; };
+		7BCACEDC812691B5978B4D1B /* Pods-Pizza.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pizza.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pizza/Pods-Pizza.release.xcconfig"; sourceTree = "<group>"; };
+		D3D14313D071F2C44EA6263B /* Pods_Pizza.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pizza.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7229E10211C241100C27215 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		E7229E12211C245100C27215 /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 		E7229E14211C24B800C27215 /* WishlistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishlistViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +48,12 @@
 		E749F6472119411800441F12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E749F64A2119411800441F12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E749F64C2119411800441F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E765826B212129F70013CDE0 /* imgsldcustcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imgsldcustcell.swift; sourceTree = "<group>"; };
+		E765826E21212DE90013CDE0 /* img1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpeg; sourceTree = "<group>"; };
+		E765826F21212DE90013CDE0 /* img2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpeg; sourceTree = "<group>"; };
+		E765827021212DE90013CDE0 /* img3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img3.jpeg; sourceTree = "<group>"; };
+		E765827121212DE90013CDE0 /* img4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img4.jpeg; sourceTree = "<group>"; };
+		E765827221212DE90013CDE0 /* img5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img5.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,12 +61,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C74A1AF3FF6921616076069 /* Pods_Pizza.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		627BE8C0A862FDAA9E6BEBCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73FDDBB5AA97D00B4280D64F /* Pods-Pizza.debug.xcconfig */,
+				7BCACEDC812691B5978B4D1B /* Pods-Pizza.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6DBEAEFAAC504B79A22DA0C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3D14313D071F2C44EA6263B /* Pods_Pizza.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E7229E1E211C251B00C27215 /* View Controllert */ = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +96,7 @@
 				E7229E18211C24EB00C27215 /* PlaceOrderViewController.swift */,
 				E7229E1A211C24F900C27215 /* LoginViewController.swift */,
 				E7229E1C211C250D00C27215 /* SignUpViewController.swift */,
+				E765826B212129F70013CDE0 /* imgsldcustcell.swift */,
 			);
 			name = "View Controllert";
 			sourceTree = "<group>";
@@ -71,6 +106,8 @@
 			children = (
 				E749F63C2119411700441F12 /* Pizza */,
 				E749F63B2119411700441F12 /* Products */,
+				627BE8C0A862FDAA9E6BEBCB /* Pods */,
+				6DBEAEFAAC504B79A22DA0C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +122,7 @@
 		E749F63C2119411700441F12 /* Pizza */ = {
 			isa = PBXGroup;
 			children = (
+				E765826D21212DCE0013CDE0 /* slidimages */,
 				E7229E1E211C251B00C27215 /* View Controllert */,
 				E749F63D2119411700441F12 /* AppDelegate.swift */,
 				E749F6412119411700441F12 /* Main.storyboard */,
@@ -96,6 +134,18 @@
 			path = Pizza;
 			sourceTree = "<group>";
 		};
+		E765826D21212DCE0013CDE0 /* slidimages */ = {
+			isa = PBXGroup;
+			children = (
+				E765826E21212DE90013CDE0 /* img1.jpeg */,
+				E765826F21212DE90013CDE0 /* img2.jpeg */,
+				E765827021212DE90013CDE0 /* img3.jpeg */,
+				E765827121212DE90013CDE0 /* img4.jpeg */,
+				E765827221212DE90013CDE0 /* img5.jpg */,
+			);
+			name = slidimages;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E749F64F2119411800441F12 /* Build configuration list for PBXNativeTarget "Pizza" */;
 			buildPhases = (
+				8654C670AD9EF76A3176DEEB /* [CP] Check Pods Manifest.lock */,
 				E749F6362119411700441F12 /* Sources */,
 				E749F6372119411700441F12 /* Frameworks */,
 				E749F6382119411700441F12 /* Resources */,
+				9A942207D3818469F714917E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,13 +207,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E765827421212DE90013CDE0 /* img2.jpeg in Resources */,
+				E765827721212DE90013CDE0 /* img5.jpg in Resources */,
+				E765827621212DE90013CDE0 /* img4.jpeg in Resources */,
 				E749F64B2119411800441F12 /* LaunchScreen.storyboard in Resources */,
 				E749F6482119411800441F12 /* Assets.xcassets in Resources */,
 				E749F6432119411700441F12 /* Main.storyboard in Resources */,
+				E765827321212DE90013CDE0 /* img1.jpeg in Resources */,
+				E765827521212DE90013CDE0 /* img3.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8654C670AD9EF76A3176DEEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pizza-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A942207D3818469F714917E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pizza/Pods-Pizza-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pizza/Pods-Pizza-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E749F6362119411700441F12 /* Sources */ = {
@@ -171,6 +267,7 @@
 				E7229E1B211C24F900C27215 /* LoginViewController.swift in Sources */,
 				E7229E11211C241100C27215 /* CategoryViewController.swift in Sources */,
 				E7229E19211C24EB00C27215 /* PlaceOrderViewController.swift in Sources */,
+				E765826C212129F70013CDE0 /* imgsldcustcell.swift in Sources */,
 				E7229E15211C24B800C27215 /* WishlistViewController.swift in Sources */,
 				E7229E1D211C250D00C27215 /* SignUpViewController.swift in Sources */,
 				E7229E17211C24D500C27215 /* CartViewController.swift in Sources */,
@@ -296,6 +393,7 @@
 		};
 		E749F6502119411800441F12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73FDDBB5AA97D00B4280D64F /* Pods-Pizza.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Pizza/Info.plist;
@@ -308,6 +406,7 @@
 		};
 		E749F6512119411800441F12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BCACEDC812691B5978B4D1B /* Pods-Pizza.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Pizza/Info.plist;
